@@ -1,0 +1,21 @@
+<template>
+  <v-container
+    fill-height
+    fluid
+  >
+    <v-row
+      align="center"
+      justify="center"
+    >
+      <v-col>
+        <div class="text-center">
+          <v-progress-circular
+            :size="200"
+            color="primary"
+            indeterminate
+          />
+        </div>
+      </v-col>
+    </v-row>
+  </v-container>
+</template>

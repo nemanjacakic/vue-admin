@@ -1,0 +1,17 @@
+.alertify, .alertify-notifier {
+    font-family: Roboto, sans-serif;
+}
+
+.alertify .ajs-footer .ajs-buttons.ajs-primary .ajs-button {
+    color: map-get($shades, 'white');
+
+    &.btn-primary {
+        background-color: map-get($blue, 'darken-2');
+        border-color: map-get($blue, 'darken-2');
+    }
+
+    &.btn-danger {
+        background-color: map-get($red, 'accent-2');
+        border-color: map-get($red, 'accent-2');
+    }
+}
